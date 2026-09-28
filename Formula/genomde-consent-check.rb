@@ -29,7 +29,8 @@ class GenomdeConsentCheck < Formula
   test do
     assert_match version.to_s, shell_output("#{bin}/genomde-consent-check --version")
     assert_match "selftest ok", shell_output("#{bin}/genomde-consent-deid --selftest")
-    examples = libexec.glob("lib/python3*/site-packages/genomde_consent_check/data/mii-consent-2025.0.1/examples").first
+    data = "site-packages/genomde_consent_check/data/mii-consent-2025.0.1"
+    examples = libexec.glob("lib/python3*/#{data}/examples").first
     assert_match "2 resources", shell_output("#{bin}/genomde-consent-check --no-hl7 #{examples}")
   end
 end
