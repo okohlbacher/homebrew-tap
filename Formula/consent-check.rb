@@ -4,7 +4,7 @@ class ConsentCheck < Formula
   desc "Check MII Kerndatensatz Consent (FHIR R4) resources and de-identify them"
   homepage "https://github.com/okohlbacher/consent-check"
   url "https://github.com/okohlbacher/consent-check/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "eaf2ed93880f42d0e1d4cc33c10d617c760e107105682faecf967c95ab69c620"
+  sha256 "bc63a9549c25e5043b49b032b60d6ac6e3a24c5ccada09eab31872b4d9ab620a"
   license "MIT"
 
   depends_on "openjdk"
