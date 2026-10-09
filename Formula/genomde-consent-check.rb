@@ -3,8 +3,8 @@ class GenomdeConsentCheck < Formula
 
   desc "Check MII Kerndatensatz Consent (FHIR R4) resources and de-identify them"
   homepage "https://github.com/okohlbacher/genomde-consent-check"
-  url "https://github.com/okohlbacher/genomde-consent-check/archive/refs/tags/v2.0.0.tar.gz"
-  sha256 "404938bbe999c8f0e5a8d9192c512ff8952cd7cc83d272237fa4469039933cd9"
+  url "https://github.com/okohlbacher/genomde-consent-check/archive/refs/tags/v2.0.1.tar.gz"
+  sha256 "7c9288738e9d0232bd8545ca4b519651010993a412d3a7a5b96c7a3c77da7298"
   license "MIT"
 
   depends_on "openjdk"
